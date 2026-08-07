@@ -15,7 +15,7 @@ Ao final do semestre, o aluno deverá ser capaz de:
 
 ## O que é Front-end?
 
-Front-end é a parte da aplicação com a qual o usuário interage diretamente. É responsável pela interface, organização visual, experiência do usuário (UX) e comunicação com o back-end.
+Front-end é a camada da aplicação responsável pela interface com o usuário. Seu papel é desenvolver interfaces modernas, responsivas e de fácil utilização, além de realizar a comunicação com o back-end.
 
 ## Conteúdos Abordados
 
@@ -42,21 +42,40 @@ A disciplina será conduzida por meio de:
 
 A composição da nota será:
 
-- Desenvolvimento do Projeto – 20%
-- Apresentação do Projeto – 20%
-- Atividades – 15%
-- Projeto Integrador – 35%
-- Autoavaliação – 10%
+- Desenvolvimento do Projeto – 20%;
+- Apresentação do Projeto – 20%;
+- Atividades – 15%;
+- Projeto Integrador – 35%;
+- Autoavaliação – 10%.
 
-## Atividade Proposta
+## Atividade 01
 
-Os alunos deverão:
+Desenvolver um projeto utilizando HTML, CSS e JavaScript (Vanilla JS). Em seguida, conectar o projeto ao GitHub e realizar o deploy da aplicação utilizando a plataforma Vercel.
 
-1. Formar grupos de 3 a 5 integrantes;
-2. Criar um repositório no GitHub;
-3. Elaborar um arquivo Markdown contendo um resumo da Aula 01;
-4. Utilizar esse repositório para armazenar as atividades desenvolvidas durante o semestre.
+### Deploy
+
+https://jogo-da-velha-tau-eosin.vercel.app/
+
+## Atividade 02
+
+Em grupos de 3 a 5 integrantes, desenvolver as atividades da disciplina utilizando um único repositório no GitHub.
+
+O repositório deverá conter:
+
+- Um arquivo Markdown com o resumo da Aula 01;
+- As atividades desenvolvidas durante o semestre.
+
+Além disso, o grupo deverá escolher um Framework Front-end e elaborar um relatório técnico em PDF (mínimo de 5 páginas), apresentando:
+
+- Principais características;
+- Vantagens;
+- Aplicações no mercado;
+- Exemplo de utilização em um projeto Web.
+
+### Repositório da Equipe:
+
+https
 
 ## Conclusão
 
-A Aula 01 apresentou a estrutura da disciplina, seus objetivos, conteúdos, metodologia, avaliação e a importância do uso de Frameworks Front-end, Git, GitHub e ferramentas de deploy no desenvolvimento Web.
+A Aula 01 apresentou a organização da disciplina, os conteúdos que serão estudados durante o semestre, os critérios de avaliação e as primeiras atividades práticas. Também destacou a importância do uso de Frameworks Front-end, Git, GitHub e Vercel como ferramentas fundamentais no desenvolvimento de aplicações Web modernas.
