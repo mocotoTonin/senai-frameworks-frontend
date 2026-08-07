@@ -1,48 +1,42 @@
-# 📘 Plano de Ensino - Frameworks Front-end
+# Plano de Ensino - Frameworks Front-end
 
-## 📖 Descrição
+## Descrição
 
-A unidade curricular tem como objetivo capacitar o estudante para programar aplicações Web responsivas voltadas aos ambientes industriais de produção, utilizando tecnologias Front-end, Frameworks CSS e Frameworks Front-end.
+A disciplina tem como objetivo capacitar o aluno para desenvolver aplicações Web responsivas utilizando tecnologias Front-end, Frameworks CSS e Frameworks Front-end, com foco em aplicações voltadas para ambientes industriais.
 
----
+## Objetivo Geral
 
-## 🎯 Objetivo Geral
+Programar aplicações Web responsivas, aplicando boas práticas de desenvolvimento e utilizando frameworks para criação de interfaces modernas.
 
-Programar aplicações responsivas para a internet, considerando as necessidades de ambientes industriais de produção.
+## Capacidades Técnicas
 
----
+Ao longo da disciplina, o estudante desenvolverá competências para:
 
-## 💻 Capacidades Técnicas
-
-Ao longo da disciplina o estudante desenvolverá habilidades para:
-
-- Configurar ambientes de desenvolvimento Web;
+- Configurar ambientes de desenvolvimento;
 - Aplicar tecnologias Front-end;
-- Desenvolver interfaces seguindo boas práticas;
-- Escolher Frameworks adequados para cada projeto;
-- Criar aplicações responsivas utilizando princípios de UX. 
+- Desenvolver interfaces responsivas;
+- Utilizar Frameworks CSS e Front-end;
+- Criar componentes reutilizáveis;
+- Aplicar boas práticas de programação;
+- Desenvolver aplicações voltadas à experiência do usuário (UX).
 
----
+## Capacidades Socioemocionais
 
-## 🤝 Capacidades Socioemocionais
-
-Além das competências técnicas, serão trabalhadas habilidades como:
+A disciplina também busca desenvolver:
 
 - Ética profissional;
 - Pensamento crítico;
 - Inovação;
-- Resolução de problemas complexos;
-- Trabalho colaborativo;
-- Inclusão e respeito às diferenças. 
+- Resolução de problemas;
+- Trabalho em equipe;
+- Respeito às diferenças.
 
----
-
-## 📚 Conteúdo Programático
+## Conteúdo Programático
 
 ### Tecnologias Front-end
 
 - Responsividade;
-- Ferramentas do Desenvolvedor;
+- Ferramentas do desenvolvedor;
 - Frameworks.
 
 ### Framework para CSS
@@ -58,40 +52,25 @@ Além das competências técnicas, serão trabalhadas habilidades como:
 - Rotas;
 - Componentes;
 - Propriedades;
-- Estados. 
----
+- Estados.
 
-## 🏫 Ambientes de Aprendizagem
-
-As atividades poderão ser realizadas em:
+## Ambientes Pedagógicos
 
 - Sala de aula;
 - Biblioteca;
 - Laboratório de informática.
 
----
+## Bibliografia
 
-## 📚 Bibliografia Básica
-
-Entre as principais referências utilizadas na disciplina estão obras sobre:
+Entre as principais referências da disciplina estão materiais sobre:
 
 - Bootstrap;
 - Angular;
-- Desenvolvimento Front-end. 
-
----
-
-## 📖 Bibliografia Complementar
-
-Também fazem parte da bibliografia conteúdos relacionados a:
-
-- Desenvolvimento Web com PHP;
-- Métricas Web;
+- Desenvolvimento Front-end;
 - Design de Interação;
-- HTML5 Canvas;
-- Aplicações Web com Java EE.
----
+- Desenvolvimento Web;
+- HTML5 Canvas.
 
-## ✅ Conclusão
+## Conclusão
 
-O Plano de Ensino apresenta toda a organização da disciplina, incluindo seus objetivos, competências técnicas e socioemocionais, conteúdos programáticos, ambientes pedagógicos e bibliografia utilizada, servindo como guia para o desenvolvimento das atividades durante o semestre.
+O Plano de Ensino apresenta a organização da disciplina, definindo seus objetivos, competências, conteúdos, ambientes de aprendizagem e referências bibliográficas que servirão de base para o desenvolvimento das atividades ao longo do semestre.
