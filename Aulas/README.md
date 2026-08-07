@@ -2,7 +2,7 @@
 
 ## 📖 Sobre a Aula
 
-A primeira aula teve como objetivo apresentar a disciplina de **Frameworks Front-end**, explicando sua importância, os conteúdos que serão estudados durante o semestre, a metodologia de ensino, os critérios de avaliação e a primeira atividade proposta. :contentReference[oaicite:0]{index=0}
+A primeira aula teve como objetivo apresentar a disciplina de **Frameworks Front-end**, explicando sua importância, os conteúdos que serão estudados durante o semestre, a metodologia de ensino, os critérios de avaliação e a primeira atividade proposta. 
 
 ---
 
@@ -13,13 +13,13 @@ Ao final do semestre o estudante será capaz de:
 - Desenvolver interfaces modernas;
 - Criar aplicações utilizando Frameworks Front-end;
 - Utilizar Git e GitHub;
-- Publicar aplicações na Web através de deploy. :contentReference[oaicite:1]{index=1}
+- Publicar aplicações na Web através de deploy. 
 
 ---
 
 ## 💻 O que é Front-end?
 
-O Front-end é a camada da aplicação responsável pela interação direta com o usuário. Seu papel é criar interfaces intuitivas, organizar os elementos visuais, proporcionar uma boa experiência de uso (UX) e realizar a comunicação com os sistemas responsáveis pelo processamento das informações. :contentReference[oaicite:2]{index=2}
+O Front-end é a camada da aplicação responsável pela interação direta com o usuário. Seu papel é criar interfaces intuitivas, organizar os elementos visuais, proporcionar uma boa experiência de uso (UX) e realizar a comunicação com os sistemas responsáveis pelo processamento das informações. 
 
 ---
 
@@ -31,8 +31,7 @@ Foram citados como exemplos:
 
 - React
 - Angular
-- Vue.js :contentReference[oaicite:3]{index=3}
-
+- Vue.js 
 ---
 
 ## 🛠 Tecnologias Utilizadas
@@ -46,8 +45,8 @@ Durante a disciplina serão utilizadas tecnologias como:
 - GitHub
 - Vercel para Deploy
 - Frameworks CSS
-- Frameworks Front-end :contentReference[oaicite:4]{index=4}
-
+- Frameworks Front-end
+  
 ---
 
 ## 📚 Metodologia
@@ -58,8 +57,8 @@ As aulas serão desenvolvidas através de:
 - Discussões em sala;
 - Estudos de caso;
 - Desenvolvimento de projetos;
-- Aplicações voltadas ao mercado profissional. :contentReference[oaicite:5]{index=5}
-
+- Aplicações voltadas ao mercado profissional.
+  
 ---
 
 ## 📝 Avaliação
@@ -74,7 +73,6 @@ A disciplina será composta pelos seguintes critérios:
 | Projeto Integrador | 35% |
 | Autoavaliação | 10% |
 
-:contentReference[oaicite:6]{index=6}
 
 ---
 
@@ -85,10 +83,10 @@ A primeira atividade consiste em:
 - Formar grupos de 3 a 5 integrantes;
 - Criar um repositório no GitHub;
 - Produzir um arquivo Markdown contendo um resumo da Aula 01;
-- Utilizar esse repositório durante todo o semestre para armazenar as atividades. :contentReference[oaicite:7]{index=7}
-
+- Utilizar esse repositório durante todo o semestre para armazenar as atividades.
+  
 ---
 
 ## ✅ Conclusão
 
-A Aula 01 apresentou toda a estrutura da disciplina, explicando seus objetivos, conteúdos, metodologia, formas de avaliação e a importância dos Frameworks Front-end para o desenvolvimento de aplicações Web modernas. Também foi reforçada a utilização de Git, GitHub e Deploy como ferramentas fundamentais para o desenvolvimento profissional. :contentReference[oaicite:8]{index=8}
+A Aula 01 apresentou toda a estrutura da disciplina, explicando seus objetivos, conteúdos, metodologia, formas de avaliação e a importância dos Frameworks Front-end para o desenvolvimento de aplicações Web modernas. Também foi reforçada a utilização de Git, GitHub e Deploy como ferramentas fundamentais para o desenvolvimento profissional.
