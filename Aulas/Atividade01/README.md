@@ -1,8 +1,8 @@
-# 🎮 Jogo da Velha
+# Jogo da Velha
 
-Projeto desenvolvido para a **Atividade 01** da disciplina de **Frameworks Front-end**, utilizando **HTML, CSS e JavaScript (Vanilla JS)**. A atividade também envolveu o uso do **GitHub** para versionamento e da **Vercel** para publicação da aplicação. :contentReference[oaicite:0]{index=0}
+Projeto desenvolvido para a Atividade 01 da disciplina de **Frameworks Front-end**, utilizando **HTML, CSS e JavaScript (Vanilla JS)**. A atividade também envolveu o uso do **GitHub** para versionamento e da **Vercel** para publicação da aplicação.
 
-## 🚀 Tecnologias
+## Tecnologias Utilizadas
 
 - HTML5
 - CSS3
@@ -11,7 +11,7 @@ Projeto desenvolvido para a **Atividade 01** da disciplina de **Frameworks Front
 - GitHub
 - Vercel
 
-## ✨ Funcionalidades
+## Funcionalidades
 
 - Jogo da Velha para dois jogadores;
 - Placar de vitórias;
@@ -19,20 +19,20 @@ Projeto desenvolvido para a **Atividade 01** da disciplina de **Frameworks Front
 - Reinício da partida;
 - Toasts de notificação.
 
-## 📚 Resumo da Aula
+## Resumo da Aula
 
-Na Aula 01 foram apresentados os objetivos da disciplina, a importância do desenvolvimento Front-end, a introdução ao JavaScript (Vanilla JS), além dos conceitos de versionamento com Git/GitHub e deploy de aplicações Web utilizando a Vercel. :contentReference[oaicite:1]{index=1} :contentReference[oaicite:2]{index=2}
+Na Aula 01 foram apresentados os objetivos da disciplina, a importância do desenvolvimento Front-end, a introdução ao JavaScript (Vanilla JS), além dos conceitos de versionamento com Git/GitHub e deploy de aplicações Web utilizando a Vercel.
 
-## 🌐 Acesse a Aplicação
+## Acesse a Aplicação
 
-Você pode acessar o projeto publicado na Vercel através do link abaixo:
+Você pode acessar o projeto através do link abaixo:
 
-**https://jogo-da-velha-tau-eosin.vercel.app/**
+https://jogo-da-velha-tau-eosin.vercel.app/
 
-## 📂 Repositório
+## Repositório
 
-GitHub: **https://github.com/mocotoTonin/JogoDaVelha**
+GitHub: https://github.com/mocotoTonin/JogoDaVelha
 
-## 👨‍💻 Autor
+## Autor
 
 Marco Antônio
