@@ -2,13 +2,13 @@
 
 ## 📖 Descrição
 
-A unidade curricular tem como objetivo capacitar o estudante para programar aplicações Web responsivas voltadas aos ambientes industriais de produção, utilizando tecnologias Front-end, Frameworks CSS e Frameworks Front-end. :contentReference[oaicite:9]{index=9}
+A unidade curricular tem como objetivo capacitar o estudante para programar aplicações Web responsivas voltadas aos ambientes industriais de produção, utilizando tecnologias Front-end, Frameworks CSS e Frameworks Front-end.
 
 ---
 
 ## 🎯 Objetivo Geral
 
-Programar aplicações responsivas para a internet, considerando as necessidades de ambientes industriais de produção. :contentReference[oaicite:10]{index=10}
+Programar aplicações responsivas para a internet, considerando as necessidades de ambientes industriais de produção.
 
 ---
 
@@ -20,7 +20,7 @@ Ao longo da disciplina o estudante desenvolverá habilidades para:
 - Aplicar tecnologias Front-end;
 - Desenvolver interfaces seguindo boas práticas;
 - Escolher Frameworks adequados para cada projeto;
-- Criar aplicações responsivas utilizando princípios de UX. :contentReference[oaicite:11]{index=11}
+- Criar aplicações responsivas utilizando princípios de UX. 
 
 ---
 
@@ -33,7 +33,7 @@ Além das competências técnicas, serão trabalhadas habilidades como:
 - Inovação;
 - Resolução de problemas complexos;
 - Trabalho colaborativo;
-- Inclusão e respeito às diferenças. :contentReference[oaicite:12]{index=12}
+- Inclusão e respeito às diferenças. 
 
 ---
 
@@ -58,8 +58,7 @@ Além das competências técnicas, serão trabalhadas habilidades como:
 - Rotas;
 - Componentes;
 - Propriedades;
-- Estados. :contentReference[oaicite:13]{index=13}
-
+- Estados. 
 ---
 
 ## 🏫 Ambientes de Aprendizagem
@@ -68,7 +67,7 @@ As atividades poderão ser realizadas em:
 
 - Sala de aula;
 - Biblioteca;
-- Laboratório de informática. :contentReference[oaicite:14]{index=14}
+- Laboratório de informática.
 
 ---
 
@@ -78,7 +77,7 @@ Entre as principais referências utilizadas na disciplina estão obras sobre:
 
 - Bootstrap;
 - Angular;
-- Desenvolvimento Front-end. :contentReference[oaicite:15]{index=15}
+- Desenvolvimento Front-end. 
 
 ---
 
@@ -90,10 +89,9 @@ Também fazem parte da bibliografia conteúdos relacionados a:
 - Métricas Web;
 - Design de Interação;
 - HTML5 Canvas;
-- Aplicações Web com Java EE. :contentReference[oaicite:16]{index=16}
-
+- Aplicações Web com Java EE.
 ---
 
 ## ✅ Conclusão
 
-O Plano de Ensino apresenta toda a organização da disciplina, incluindo seus objetivos, competências técnicas e socioemocionais, conteúdos programáticos, ambientes pedagógicos e bibliografia utilizada, servindo como guia para o desenvolvimento das atividades durante o semestre. :contentReference[oaicite:17]{index=17}
+O Plano de Ensino apresenta toda a organização da disciplina, incluindo seus objetivos, competências técnicas e socioemocionais, conteúdos programáticos, ambientes pedagógicos e bibliografia utilizada, servindo como guia para o desenvolvimento das atividades durante o semestre.
