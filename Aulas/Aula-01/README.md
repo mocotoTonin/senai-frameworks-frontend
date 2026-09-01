@@ -73,7 +73,7 @@ A disciplina será desenvolvida por meio de diferentes atividades práticas e te
 - Estudos de caso;
 - Exercícios práticos;
 - Desenvolvimento de projetos;
-- Atividades individuais e em grupo.
+- Atividades individuais.
 
 O objetivo é unir a parte teórica com a prática de desenvolvimento de aplicações Web.
 
@@ -98,7 +98,7 @@ A composição da avaliação da disciplina é dividida da seguinte forma:
 
 A primeira atividade prática consistiu no desenvolvimento de um projeto utilizando **HTML, CSS e JavaScript (Vanilla JS)**.
 
-Após o desenvolvimento, o projeto deveria ser conectado ao **GitHub** para versionamento e posteriormente publicado utilizando a plataforma **Vercel**.
+Após o desenvolvimento, o projeto foi conectado ao **GitHub** para versionamento e posteriormente publicado utilizando a plataforma **Vercel**.
 
 ## Tecnologias utilizadas
 
@@ -119,20 +119,21 @@ https://jogo-da-velha-tau-eosin.vercel.app/
 
 # Atividade 02 — Organização do Repositório
 
-A segunda atividade teve como objetivo organizar o desenvolvimento da disciplina em um único repositório no GitHub.
+A segunda atividade teve como objetivo organizar os conteúdos e atividades da disciplina em um repositório no GitHub.
 
-O repositório será utilizado durante todo o semestre para armazenar:
+O repositório será utilizado durante todo o semestre para armazenar e documentar o desenvolvimento individual das atividades.
+
+Entre os conteúdos que serão registrados estão:
 
 - Resumos das aulas;
-- Atividades;
+- Atividades práticas;
 - Códigos;
 - Projetos;
 - Materiais disponibilizados pelo professor;
 - Documentações;
 - Relatórios;
+- Exercícios;
 - Outros registros relacionados à disciplina.
-
-A organização por pastas permite manter cada aula e atividade separadas, facilitando a consulta e o acompanhamento do desenvolvimento ao longo do semestre.
 
 ---
 
@@ -163,21 +164,9 @@ senai-frameworks-frontend/
 
 Novas aulas e atividades serão adicionadas ao repositório conforme o andamento da disciplina.
 
-Projeto em Grupo
-
-Além das atividades individuais e práticas realizadas durante as aulas, o repositório também será utilizado para o desenvolvimento das atividades e projetos em grupo.
-
-Repositório do Grupo
-
-O repositório principal da equipe pode ser acessado em:
-
-https://github.com/mocotoTonin/senai-frameworks-frontend
-
-Esse repositório será utilizado para centralizar os registros e projetos desenvolvidos ao longo do semestre.
-
 Framework Front-end
 
-Como parte das atividades da disciplina, o grupo deverá escolher um Framework Front-end para estudo e elaboração de um relatório técnico.
+Como parte das atividades da disciplina, será escolhido um Framework Front-end para estudo e elaboração de um relatório técnico.
 
 O relatório deverá apresentar:
 
@@ -187,7 +176,15 @@ Aplicações no mercado;
 Exemplos de utilização;
 Exemplo de aplicação em um projeto Web.
 
-O relatório deverá ser desenvolvido em formato PDF, seguindo os requisitos apresentados pelo professor.
+O relatório deverá ser desenvolvido em formato PDF, seguindo os requisitos apresentados durante a disciplina.
+
+Repositório
+
+O acompanhamento individual da disciplina está disponível no GitHub:
+
+GitHub:
+
+https://github.com/mocotoTonin/senai-frameworks-frontend
 
 Conclusão
 
@@ -195,12 +192,4 @@ A Aula 01 apresentou a estrutura da disciplina de Frameworks Front-end e os prin
 
 Além da introdução aos conceitos de Front-end e frameworks, a aula também permitiu realizar as primeiras atividades práticas envolvendo HTML, CSS, JavaScript, Git, GitHub e Vercel.
 
-A organização do repositório em grupo permitirá acompanhar todo o desenvolvimento da disciplina, mantendo aulas, atividades, projetos e documentos centralizados em um único local.
-
-Repositório da Disciplina
-
-GitHub — Repositório em Grupo:
-
-https://github.com/mocotoTonin/senai-frameworks-frontend
-
-Material desenvolvido para acompanhamento acadêmico da disciplina de Frameworks Front-end.
+A organização individual do repositório permitirá acompanhar o desenvolvimento das aulas, atividades, projetos e documentos ao longo do semestre, mantendo todo o conteúdo centralizado e organizado.
