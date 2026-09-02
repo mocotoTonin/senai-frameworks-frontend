@@ -1,442 +1,636 @@
-# Aula 04 — Consumindo APIs no Front-end
+# Aula 03 — Projetos com Frameworks Front-end
 
 ## Introdução
 
-A Aula 04 da disciplina de **Frameworks Front-end** teve como tema principal o consumo de **APIs no desenvolvimento Front-end**.
+A Aula 03 da disciplina de **Frameworks Front-end** teve como foco o estudo dos principais frameworks e bibliotecas utilizados no desenvolvimento de aplicações Web modernas.
 
-Durante a aula foram apresentados conceitos fundamentais sobre APIs, comunicação entre sistemas, protocolo HTTP, endpoints, JSON, servidores Back-end, Web Services e criação de APIs REST utilizando **Express.js**.
+Durante a aula foram apresentados conceitos relacionados a **Frameworks Front-end, bibliotecas, componentização, programação reativa, gerenciamento de estado, roteamento, integração com APIs e ferramentas de desenvolvimento**.
 
-Também foram realizadas atividades práticas envolvendo a pesquisa de projetos que utilizam APIs e o desenvolvimento de uma API própria para ser consumida por uma aplicação Front-end.
-
----
-
-## Conteúdos da Aula
-
-Durante a aula foram abordados os seguintes conceitos:
-
-- API — Application Programming Interface;
-- REST — Representational State Transfer;
-- Protocolo HTTP;
-- Métodos HTTP;
-- Endpoints;
-- JSON — JavaScript Object Notation;
-- Comunicação cliente-servidor;
-- Servidor Back-end;
-- Web Services;
-- Express.js;
-- APIs REST;
-- CORS;
-- Node.js;
-- Deploy de APIs;
-- Render;
-- Consumo de APIs no Front-end.
+Também foram estudadas as tecnologias **React, Vue.js, Angular e Next.js**, suas principais características e formas de criação e organização de projetos.
 
 ---
 
-# API — Application Programming Interface
+# Conteúdos da Aula
 
-Uma **API (Application Programming Interface)** é uma interface que permite a comunicação entre diferentes aplicações ou componentes de software.
+Durante a aula foram abordados os seguintes conteúdos:
 
-Por meio de uma API, diferentes sistemas podem trocar informações de maneira organizada, permitindo que uma aplicação utilize dados ou funcionalidades fornecidas por outra aplicação.
-
-Um exemplo é uma aplicação Front-end realizando uma requisição para uma API e recebendo os dados necessários para apresentar na interface.
+- Introdução aos Frameworks Front-end;
+- Diferença entre Framework e Biblioteca;
+- React;
+- Vue.js;
+- Angular;
+- Next.js;
+- Componentização;
+- Programação reativa;
+- Gerenciamento de estado;
+- Virtual DOM;
+- Sistema de rotas;
+- Integração com APIs;
+- Ferramentas de Build e Bundling;
+- Git e versionamento;
+- Estrutura de projetos;
+- Importação e utilização de projetos existentes.
 
 ---
 
-# REST
+# O que é um Framework Front-end?
 
-**REST (Representational State Transfer)** é um estilo arquitetural utilizado no desenvolvimento de aplicações distribuídas e serviços Web.
+Um **Framework Front-end** é um conjunto de ferramentas, bibliotecas e convenções que fornece uma estrutura para o desenvolvimento de interfaces Web.
 
-Entre suas principais características estão:
+Seu objetivo é facilitar e organizar o desenvolvimento de aplicações, principalmente projetos maiores e mais complexos.
 
-- Comunicação cliente-servidor;
-- Comunicação sem estado (*stateless*);
-- Utilização dos métodos HTTP;
-- Recursos identificados por URLs;
-- Utilização de formatos de representação de dados, como JSON.
+Comparando com o desenvolvimento utilizando apenas JavaScript:
 
----
-
-# Protocolo HTTP
-
-O **HTTP (Hypertext Transfer Protocol)** é um protocolo utilizado para comunicação na Web.
-
-Ele permite que clientes e servidores realizem a troca de informações por meio de requisições e respostas.
-
-O funcionamento básico pode ser representado da seguinte forma:
-
-```text
-Cliente / Front-end
+Vanilla JavaScript
         ↓
-   Requisição HTTP
+Código desenvolvido manualmente
         ↓
-Servidor / API
+Maior possibilidade de repetição
         ↓
-   Processamento
+Manutenção pode se tornar mais complexa
+
+Com frameworks e bibliotecas:
+
+Framework / Biblioteca
         ↓
-   Resposta HTTP
+Componentes reutilizáveis
         ↓
-Cliente / Front-end
-Características
-Modelo cliente-servidor;
-Comunicação baseada em requisições e respostas;
-Comunicação stateless;
-Utilização de métodos HTTP.
-Métodos HTTP
+Organização do código
+        ↓
+Maior produtividade
+        ↓
+Manutenção facilitada
+Framework x Biblioteca
 
-Os principais métodos HTTP estudados são:
+Durante a aula foi apresentada a diferença entre Framework e Biblioteca.
 
-Método	Finalidade
-GET	Recuperar informações
-POST	Criar novos recursos
-PUT	Substituir completamente um recurso
-PATCH	Atualizar parcialmente um recurso
-DELETE	Remover um recurso
-GET
+Framework
 
-Utilizado para consultar ou recuperar informações.
+Um framework fornece uma estrutura mais definida para o desenvolvimento da aplicação.
 
-POST
+Características:
 
-Utilizado para criar novos recursos.
+Define uma estrutura de desenvolvimento;
+Possui maior controle sobre o fluxo da aplicação;
+Utiliza padrões e convenções;
+Pode oferecer diversos recursos integrados.
 
-PUT
+Exemplos:
 
-Utilizado para substituir completamente um recurso existente.
+Angular;
+Vue.js.
+Biblioteca
 
-PATCH
+Uma biblioteca fornece funcionalidades que podem ser utilizadas pelo desenvolvedor conforme a necessidade.
 
-Utilizado para atualizar parcialmente um recurso.
+Características:
 
-DELETE
-
-Utilizado para remover um recurso.
-
-Endpoint
-
-Um endpoint é um endereço específico disponibilizado por uma API para acessar determinado recurso ou funcionalidade.
+Maior liberdade de utilização;
+O desenvolvedor decide quando utilizar seus recursos;
+Pode ser integrada a diferentes projetos;
+Normalmente possui um escopo mais específico.
 
 Exemplo:
 
-GET /usuarios
+React.
+Por que utilizar Frameworks Front-end?
 
-Nesse exemplo, /usuarios representa o endpoint utilizado para consultar informações de usuários.
+Os frameworks oferecem diversos recursos que podem facilitar o desenvolvimento de aplicações.
 
-JSON
+Entre os principais benefícios estão:
 
-JSON (JavaScript Object Notation) é um formato utilizado para representar e transmitir dados entre sistemas.
+Aumento da produtividade;
+Organização do código;
+Reutilização de componentes;
+Padronização do desenvolvimento;
+Facilitação da manutenção;
+Recursos para gerenciamento de estado;
+Sistema de rotas;
+Integração com APIs;
+Ferramentas de build;
+Comunidade e documentação.
+Características dos Frameworks Front-end
+Estrutura de Código
+
+Frameworks oferecem estruturas organizadas para facilitar a manutenção e a escalabilidade das aplicações.
+
+Muitos utilizam componentes para permitir a reutilização de partes da interface.
+
+Componentização
+
+A componentização consiste em dividir a aplicação em partes menores e reutilizáveis.
 
 Exemplo:
 
-{
-  "nome": "Toninho",
-  "idade": 18
+Aplicação
+│
+├── Header
+├── Menu
+├── Card
+├── Formulário
+└── Footer
+
+Cada componente pode possuir sua própria estrutura, lógica e apresentação.
+
+Programação Reativa
+
+Frameworks como React, Vue e Angular possuem recursos que permitem atualizar a interface de acordo com mudanças no estado da aplicação.
+
+Isso reduz a necessidade de realizar alterações manuais diretamente no DOM.
+
+Ferramentas de Build e Bundling
+
+Frameworks modernos possuem ferramentas responsáveis por preparar o projeto para desenvolvimento e produção.
+
+Essas ferramentas podem realizar tarefas como:
+
+Minificação;
+Transpilação;
+Organização dos arquivos;
+Bundling;
+Otimização;
+Preparação do projeto para produção.
+Sistema de Rotas
+
+Frameworks Front-end podem oferecer recursos para criação de aplicações com diferentes páginas e rotas.
+
+Em aplicações SPA (Single Page Application), a navegação pode ocorrer sem a necessidade de recarregar completamente a página.
+
+Integração com APIs
+
+Frameworks e bibliotecas Front-end facilitam a comunicação com APIs.
+
+Por meio de requisições assíncronas, uma aplicação pode:
+
+Buscar dados;
+Enviar informações;
+Atualizar dados;
+Consumir serviços externos.
+
+Esse conceito será importante para as atividades relacionadas ao consumo de APIs.
+
+React
+
+O React é uma biblioteca JavaScript utilizada para criação de interfaces de usuário.
+
+Foi desenvolvido pelo Facebook e possui uma arquitetura baseada em componentes reutilizáveis.
+
+Entre suas características estão:
+
+Componentização;
+JSX;
+Hooks;
+Gerenciamento de estado;
+Virtual DOM;
+Reutilização de componentes;
+Desenvolvimento de interfaces interativas.
+Conceitos Fundamentais do React
+JSX
+
+O JSX permite escrever uma estrutura semelhante ao HTML dentro do código JavaScript.
+
+Exemplo:
+
+function App() {
+  return (
+    <h1>Olá, mundo!</h1>
+  );
 }
 
-O JSON é bastante utilizado na comunicação entre Front-end e APIs por possuir uma estrutura simples e fácil de interpretar.
+Algumas diferenças em relação ao HTML incluem:
 
-Comunicação entre Front-end e API
+Utilização de {} para expressões JavaScript;
+Atributos escritos em camelCase;
+Utilização de className em vez de class;
+Tags devem ser fechadas corretamente.
+Hooks
 
-A comunicação entre uma aplicação Front-end e uma API ocorre por meio de requisições HTTP.
+Os Hooks permitem utilizar recursos do React dentro de componentes funcionais.
 
-O processo pode ser representado da seguinte maneira:
+useState
 
-1. Usuário acessa a aplicação
-              ↓
-2. Front-end realiza uma requisição HTTP
-              ↓
-3. API recebe a requisição
-              ↓
-4. API processa a solicitação
-              ↓
-5. Servidor retorna os dados
-              ↓
-6. Dados são enviados em JSON
-              ↓
-7. Front-end apresenta as informações
-
-Esse processo permite que uma aplicação Front-end utilize dados fornecidos por um servidor ou serviço externo.
-
-Servidor Back-end
-
-O Back-end é responsável pelo processamento das requisições e pelo fornecimento dos dados utilizados pelas aplicações.
-
-Entre suas funções estão:
-
-Processar requisições;
-Gerenciar dados;
-Executar regras de negócio;
-Disponibilizar APIs;
-Retornar respostas para o cliente.
-Web Service
-
-Um Web Service é um serviço disponibilizado pela Web que permite a comunicação entre diferentes aplicações.
-
-Por meio de protocolos como HTTP e HTTPS, sistemas desenvolvidos utilizando diferentes tecnologias podem trocar informações.
-
-Express.js
-
-O Express.js é um framework para Node.js utilizado para facilitar a criação de servidores Web e APIs.
-
-Entre suas funcionalidades estão:
-
-Criação de servidores;
-Definição de rotas;
-Criação de endpoints;
-Utilização de middlewares;
-Criação de APIs REST;
-Tratamento de requisições e respostas.
-CORS
-
-CORS (Cross-Origin Resource Sharing) é um mecanismo utilizado pelos navegadores para controlar a comunicação entre aplicações hospedadas em diferentes origens.
-
-Ele é importante principalmente quando o Front-end e a API estão hospedados em endereços diferentes.
+O useState é utilizado para gerenciar o estado de um componente.
 
 Exemplo:
 
-Front-end
-https://meu-front.vercel.app
+const [contador, setContador] = useState(0);
+useEffect
 
+O useEffect é utilizado para executar efeitos colaterais, como chamadas de API.
+
+Exemplo:
+
+useEffect(() => {
+  // código executado após a renderização
+}, []);
+Gerenciamento de Estado
+
+O estado representa informações que podem mudar durante a execução da aplicação.
+
+O React possui diferentes possibilidades para gerenciamento de estado.
+
+Entre elas:
+
+useState;
+Context API;
+Bibliotecas externas, como Redux.
+
+A Context API pode ser utilizada para compartilhar estados entre diferentes componentes.
+
+O Redux pode ser utilizado em aplicações que possuem gerenciamento de estado mais complexo e global.
+
+DOM e Virtual DOM
+
+O DOM (Document Object Model) representa a estrutura de uma página Web em forma de árvore.
+
+O JavaScript pode utilizar o DOM para modificar elementos da página.
+
+O React utiliza o conceito de Virtual DOM para otimizar atualizações da interface.
+
+De maneira simplificada:
+
+Alteração no estado
         ↓
-
-API
-https://minha-api.onrender.com
-
-A configuração adequada do CORS permite que essas aplicações possam se comunicar.
-
-Atividade 01 — Projetos GitHub com Consumo de APIs
-Descrição
-
-A primeira atividade prática consistiu em pesquisar 10 projetos disponíveis no GitHub que utilizam APIs.
-
-Os projetos foram analisados com o objetivo de identificar informações como:
-
-Nome do projeto;
-Repositório no GitHub;
-Framework utilizado;
-API consumida;
-Link de deploy, quando disponível.
-
-As informações encontradas foram organizadas em uma tabela no formato Markdown.
-
-Resultado da Atividade
-
-Foi realizada uma pesquisa com 10 projetos que utilizam APIs, permitindo observar diferentes aplicações e formas de integração entre Front-end e serviços externos.
-
-A atividade ajudou a compreender, de maneira prática, como APIs podem ser utilizadas em diferentes tipos de projetos Web.
-
-Repositório da Atividade 01
-
-O resultado da pesquisa está disponível no GitHub:
-
-ProjetosAPI
-
-https://github.com/mocotoTonin/ProjetosAPI
-
-Atividade 02 — API de Data e Hora
-Descrição
-
-A segunda atividade prática consistiu no desenvolvimento de uma API utilizando Node.js e Express, responsável por fornecer informações de data e hora.
-
-Além da API, foi desenvolvido um Front-end separado, responsável por consumir os dados disponibilizados pela API e apresentar as informações na interface.
-
-Os projetos foram versionados utilizando Git e GitHub e posteriormente publicados utilizando serviços de deploy.
-
-Estrutura da Atividade
-
-O funcionamento da aplicação pode ser representado da seguinte forma:
-
-API — Node.js + Express
+Virtual DOM
         ↓
-Endpoint de data e hora
+Comparação das alterações
         ↓
-Requisição HTTP
+Atualização necessária
         ↓
-Front-end
-        ↓
-Consumo da API
-        ↓
-Exibição da data e hora
+DOM real
 
-A atividade foi dividida em dois projetos:
+Isso permite que apenas as partes necessárias da interface sejam atualizadas.
 
-API — Back-end
-Front-end — Aplicação que consome a API
-API — Back-end
+Angular
 
-A API foi desenvolvida utilizando Node.js e Express.js.
+O Angular é um framework completo desenvolvido pelo Google.
 
-Sua função é disponibilizar um endpoint responsável por fornecer informações de data e hora para aplicações clientes.
+Ele oferece diversos recursos integrados para desenvolvimento de aplicações Web, incluindo:
 
-Tecnologias utilizadas
-Node.js;
-Express.js;
-JavaScript;
-HTTP;
-JSON;
-CORS;
-Git;
-GitHub;
-Render.
-Repositório da API
+Roteamento;
+HTTP Client;
+Injeção de dependências;
+Componentização;
+TypeScript;
+CLI;
+Change Detection;
+Estrutura organizada para aplicações complexas.
+Características do Angular
 
-https://github.com/mocotoTonin/api-data-hora
+Entre os principais conceitos apresentados estão:
 
-API publicada no Render
+Componentes;
+Módulos;
+Serviços;
+Data Binding;
+Injeção de Dependência;
+Roteamento;
+TypeScript.
 
-https://api-data-hora-y82i.onrender.com/
+Os componentes utilizam uma estrutura que combina HTML, CSS e TypeScript.
 
-Front-end
+Angular CLI
 
-Foi desenvolvido um projeto Front-end separado para realizar o consumo da API.
+O Angular CLI (Command Line Interface) é uma ferramenta de linha de comando utilizada para criar, configurar e gerenciar projetos Angular.
 
-A aplicação realiza uma requisição HTTP para a API e utiliza os dados recebidos para apresentar as informações de data e hora na interface.
+Instalação
+npm install -g @angular/cli
+Criação do projeto
+ng new meu-app-angular
+Entrar na pasta
+cd meu-app-angular
+Abrir no VS Code
+code .
+Iniciar o servidor
+ng serve
+Estrutura de um Projeto Angular
 
-Tecnologias utilizadas
-HTML;
+Um projeto Angular possui diversos arquivos e diretórios responsáveis pela organização da aplicação.
+
+Entre eles:
+
+meu-app-angular/
+│
+├── node_modules/
+├── public/
+├── src/
+├── .angular/
+├── .vscode/
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── angular.json
+├── tsconfig.json
+└── README.md
+node_modules
+
+Contém as dependências instaladas do projeto.
+
+public
+
+Contém arquivos estáticos acessíveis publicamente.
+
+src
+
+É o diretório principal do código-fonte da aplicação.
+
+.gitignore
+
+Define arquivos e diretórios que não devem ser enviados para o Git.
+
+package.json
+
+Contém informações do projeto, dependências e scripts.
+
+angular.json
+
+Contém configurações importantes do projeto Angular.
+
+Vue.js
+
+O Vue.js é um framework progressivo utilizado para desenvolvimento de interfaces Web.
+
+Uma de suas principais características é permitir uma adoção gradual, podendo ser utilizado desde pequenas partes de uma aplicação até projetos maiores.
+
+Entre suas características estão:
+
+Reatividade;
+Componentização;
+Single-File Components;
+Virtual DOM;
+Curva de aprendizado acessível;
+Performance otimizada.
+Criando um Projeto Vue
+Criar o projeto
+npm create vue@latest
+Entrar na pasta
+cd meu-projeto-vue
+Instalar as dependências
+npm install
+Abrir no VS Code
+code .
+Iniciar o servidor
+npm run dev
+Estrutura de um Projeto Vue
+
+Uma estrutura básica pode ser representada por:
+
+meu-projeto-vue/
+│
+├── node_modules/
+├── public/
+├── src/
+├── .vscode/
+├── .gitignore
+├── package.json
+├── package-lock.json
+├── vite.config.js
+└── README.md
+
+Dentro da pasta src podem ser encontrados arquivos e diretórios como:
+
+src/
+│
+├── assets/
+├── components/
+├── App.vue
+└── main.js
+assets
+
+Armazena recursos como:
+
+Imagens;
+Fontes;
 CSS;
-JavaScript;
-API;
-Git;
+Outros arquivos processados pelo Vite.
+components
+
+Contém componentes reutilizáveis da aplicação.
+
+App.vue
+
+É o componente principal da aplicação.
+
+main.js
+
+É o ponto de entrada responsável por montar a aplicação.
+
+Next.js
+
+O Next.js é um framework baseado em React utilizado para desenvolvimento de aplicações Web modernas e aplicações Full-stack.
+
+Ele adiciona recursos que não fazem parte diretamente do React.
+
+Entre eles:
+
+Roteamento baseado em arquivos;
+Renderização no servidor;
+Server Components;
+Otimização de imagens;
+Otimização de fontes;
+Páginas e layouts;
+Recursos de Back-end;
+Otimizações de desempenho;
+Recursos relacionados a SEO.
+Criando um Projeto Next.js
+Criar o projeto
+npx create-next-app@latest meu-projeto
+Entrar na pasta
+cd meu-projeto
+Abrir no VS Code
+code .
+Iniciar o servidor
+npm run dev
+Estrutura de um Projeto Next.js
+
+Utilizando o App Router, uma estrutura básica pode conter:
+
+meu-projeto/
+│
+├── node_modules/
+├── public/
+├── app/
+├── package.json
+├── package-lock.json
+└── README.md
+app
+
+É o diretório principal da aplicação quando utilizado o App Router.
+
+Pode conter:
+
+Páginas;
+Layouts;
+Estilos;
+Componentes;
+Rotas.
+
+A estrutura de diretórios também pode determinar as rotas da aplicação.
+
+Comparação entre as Tecnologias
+Tecnologia	Tipo	Principal característica
+React	Biblioteca	Componentização e construção de interfaces
+Vue.js	Framework	Reatividade e adoção progressiva
+Angular	Framework	Solução completa para aplicações Web
+Next.js	Framework	Recursos avançados baseados em React
+
+A escolha da tecnologia depende de fatores como:
+
+Complexidade do projeto;
+Experiência da equipe;
+Curva de aprendizado;
+Performance;
+Escalabilidade;
+Ecossistema;
+Comunidade;
+Necessidades da aplicação.
+Importando Projetos
+
+Durante a aula também foi apresentada a possibilidade de utilizar projetos existentes como base para novos desenvolvimentos.
+
+A comunidade Open Source disponibiliza diversos projetos que podem ser estudados, adaptados e utilizados como referência.
+
+Entre as ferramentas apresentadas estão:
+
 GitHub;
-Vercel.
-Repositório do Front-end
+Vercel Templates;
+CodeSandbox.
+Git e Versionamento
 
-https://github.com/mocotoTonin/frontend-data-hora
+Os projetos desenvolvidos durante a disciplina devem utilizar Git para controle de versão.
 
-Deploy
+O Git permite registrar as alterações realizadas no projeto ao longo do desenvolvimento.
 
-Após o desenvolvimento, os projetos foram publicados utilizando serviços de hospedagem.
+Comandos básicos:
 
-A API foi disponibilizada utilizando o Render, enquanto o Front-end foi publicado utilizando a Vercel.
+git init
 
-O processo pode ser representado da seguinte maneira:
+Inicializa um repositório Git.
+
+git add .
+
+Adiciona os arquivos para o próximo commit.
+
+git commit -m "mensagem"
+
+Registra uma alteração no histórico.
+
+git push
+
+Envia as alterações para o repositório remoto.
+
+git pull
+
+Obtém as alterações existentes no repositório remoto.
+
+Atividade — Projetos com Frameworks Front-end
+Descrição
+
+A atividade proposta durante a aula consiste no desenvolvimento de quatro projetos Web sobre o mesmo tema, utilizando diferentes tecnologias:
+
+React;
+Vue;
+Angular;
+Next.js.
+
+Cada projeto deverá apresentar uma página funcional, responsiva e organizada, utilizando componentes e os recursos básicos da tecnologia escolhida.
+
+Além dos quatro projetos, também deverá ser realizada uma quinta entrega, consistindo em uma cópia de um projeto a partir de um repositório existente.
+
+Entregas
+
+A atividade é composta pelas seguintes entregas:
+
+Projeto	Tecnologia
+Projeto 01	React
+Projeto 02	Vue
+Projeto 03	Angular
+Projeto 04	Next.js
+Projeto 05	Cópia de um projeto existente
+Requisitos dos Projetos
+
+Cada aplicação deverá possuir:
+
+Página funcional;
+Design organizado;
+Interface responsiva;
+Utilização de componentes;
+Recursos básicos da tecnologia escolhida;
+Código versionado com Git;
+Repositório no GitHub.
+
+Os projetos deverão ser desenvolvidos utilizando o mesmo tema, permitindo realizar uma comparação prática entre as tecnologias.
+
+Versionamento
+
+Durante o desenvolvimento dos projetos, o Git deverá ser utilizado para registrar a evolução das aplicações.
+
+O histórico de commits permite acompanhar as alterações realizadas ao longo do desenvolvimento.
+
+Fluxo básico:
 
 Desenvolvimento
       ↓
-Git
+git add
+      ↓
+git commit
       ↓
 GitHub
       ↓
-Deploy da API
-      ↓
-Render
-      ↓
-API Online
-      ↓
-Front-end
-      ↓
-Vercel
-      ↓
-Aplicação Online
-API — Render
+Histórico do projeto
+Comparação Final
 
-A API desenvolvida para a atividade foi publicada no Render.
+Após o desenvolvimento dos quatro projetos, deverá ser realizada uma comparação entre:
 
-URL da API:
+React;
+Vue;
+Angular;
+Next.js.
 
-https://api-data-hora-y82i.onrender.com/
+A comparação deverá considerar aspectos observados durante o desenvolvimento, como:
 
-O endereço disponibilizado pelo Render permite que o Front-end realize as requisições para obter os dados fornecidos pela API.
-
-Aplicação Online — Vercel
-
-O Front-end foi publicado utilizando a Vercel.
-
-URL da aplicação:
-
-https://frontend-data-hora-two.vercel.app/
-
-A aplicação utiliza a API desenvolvida para obter as informações de data e hora e apresentar os dados ao usuário.
-
-Links da Atividade 02
-API — GitHub
-
-https://github.com/mocotoTonin/api-data-hora
-
-API — Render
-
-https://api-data-hora-y82i.onrender.com/
-
-Front-end — GitHub
-
-https://github.com/mocotoTonin/frontend-data-hora
-
-Front-end — Vercel
-
-https://frontend-data-hora-two.vercel.app/
-
-Tecnologias e Ferramentas
-Tecnologia	Utilização
-HTML	Estrutura da aplicação
-CSS	Estilização da interface
-JavaScript	Lógica das aplicações
-Node.js	Ambiente de execução da API
-Express.js	Desenvolvimento da API
-JSON	Formato de troca de dados
-HTTP	Comunicação entre aplicações
-CORS	Comunicação entre diferentes origens
-Git	Versionamento
-GitHub	Armazenamento do código
-Render	Deploy da API
-Vercel	Deploy do Front-end
+Estrutura dos projetos;
+Sintaxe;
+Componentização;
+Facilidade de desenvolvimento;
+Organização;
+Curva de aprendizado;
+Ferramentas disponíveis;
+Gerenciamento de estado;
+Roteamento;
+Performance.
 Aprendizados
 
-A Aula 04 permitiu compreender como aplicações Front-end podem se comunicar com APIs e serviços externos.
+A Aula 03 permitiu compreender melhor o ecossistema de desenvolvimento Front-end moderno.
 
-Entre os principais conhecimentos desenvolvidos estão:
+Entre os principais conhecimentos adquiridos estão:
 
-Conceito de API;
-Conceito de REST;
-Funcionamento do protocolo HTTP;
-Métodos HTTP;
-Endpoints;
-Estrutura JSON;
-Comunicação cliente-servidor;
-Conceito de Web Service;
-Criação de APIs REST;
-Utilização do Express.js;
-Utilização do CORS;
-Versionamento com Git e GitHub;
-Deploy de APIs;
-Consumo de APIs no Front-end.
+Diferença entre framework e biblioteca;
+Funcionamento de componentes;
+Importância da reutilização de código;
+Conceito de programação reativa;
+Gerenciamento de estado;
+Virtual DOM;
+React;
+Vue.js;
+Angular;
+Next.js;
+Estrutura de projetos;
+Angular CLI;
+Vite;
+Next CLI;
+Git e versionamento;
+Utilização de projetos Open Source.
 Conclusão
 
-A Aula 04 apresentou conceitos fundamentais para o desenvolvimento de aplicações Web que utilizam comunicação entre diferentes sistemas.
+A Aula 03 apresentou os principais conceitos relacionados aos Frameworks Front-end e mostrou como diferentes tecnologias podem ser utilizadas para desenvolver aplicações Web modernas.
 
-O estudo de APIs, HTTP, JSON e endpoints permitiu compreender como uma aplicação Front-end pode realizar requisições e consumir informações disponibilizadas por um servidor.
+Durante a aula foram estudadas quatro tecnologias importantes do ecossistema Front-end: React, Vue.js, Angular e Next.js.
 
-As atividades práticas permitiram aplicar esses conceitos em diferentes situações. Na Atividade 01, foram pesquisados e analisados projetos disponíveis no GitHub que utilizam APIs.
+Também foi possível compreender as diferenças entre frameworks e bibliotecas, além de conceitos como componentização, programação reativa, gerenciamento de estado, Virtual DOM, roteamento e integração com APIs.
 
-Na Atividade 02, foi desenvolvida uma API própria utilizando Node.js e Express, além de um Front-end responsável por consumir os dados disponibilizados pela API.
+A atividade prática proposta permite aplicar esses conhecimentos no desenvolvimento de projetos utilizando diferentes tecnologias, mantendo o mesmo tema para possibilitar uma comparação entre as ferramentas.
 
-Também foram praticados conceitos de Git, GitHub, Render e Vercel, passando pelas etapas de desenvolvimento, versionamento, deploy e publicação das aplicações na internet.
+Além do desenvolvimento, o uso do Git e GitHub permite manter o histórico das alterações e organizar o processo de desenvolvimento dos projetos.
 
-Links
-Atividade 01
-
-Repositório:
-
-https://github.com/mocotoTonin/ProjetosAPI
-
-Atividade 02
-
-API — GitHub:
-
-https://github.com/mocotoTonin/api-data-hora
-
-API — Render:
-
-https://api-data-hora-y82i.onrender.com/
-
-Front-end — GitHub:
-
-https://github.com/mocotoTonin/frontend-data-hora
-
-Front-end — Vercel:
-
-https://frontend-data-hora-two.vercel.app/
-
-Repositório Principal da Disciplina
-
-https://github.com/mocotoTonin/senai-frameworks-frontend
+Material desenvolvido para acompanhamento acadêmico individual da disciplina de Frameworks Front-end.
