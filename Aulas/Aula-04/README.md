@@ -65,7 +65,6 @@ Ele permite que clientes e servidores realizem a troca de informações por meio
 
 O funcionamento básico pode ser representado da seguinte forma:
 
-```text
 Cliente / Front-end
         ↓
    Requisição HTTP
