@@ -194,12 +194,13 @@ Ele é importante principalmente quando o Front-end e a API estão hospedados em
 Exemplo:
 
 Front-end
-https://meu-front.vercel.app
+https://frontend-data-hora-two.vercel.app/
 
         ↓
 
 API
-https://minha-api.onrender.com
+
+https://github.com/mocotoTonin/frontend-data-hora
 
 A configuração adequada do CORS permite que essas aplicações possam se comunicar.
 
