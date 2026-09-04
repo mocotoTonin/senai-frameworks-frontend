@@ -58,7 +58,7 @@ Cada nota possui informações como:
 
 ### Repositório do Backend
 
-https://github.com/mocotoTonin/api-notas
+https://github.com/mocotoTonin/api-notes
 
 ### API publicada no Render
 
