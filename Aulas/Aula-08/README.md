@@ -226,11 +226,11 @@ O código-fonte da atividade está disponível no GitHub:
 
 **Projeto React**
 
-https://github.com/mocotoTonin/atividade03-react
+https://github.com/mocotoTonin/lista-tarefa-font
 
 ## Acesse a Aplicação
 
-https://atividade03-react.vercel.app/
+https://lista-tarefa-font.vercel.app/
 
 ---
 
@@ -302,11 +302,11 @@ Dessa forma, a aula contribuiu para a compreensão de como bibliotecas modernas 
 
 Repositório:
 
-https://github.com/mocotoTonin/atividade03-react
+https://github.com/mocotoTonin/lista-tarefa-font
 
 Aplicação:
 
-https://atividade03-react.vercel.app/
+https://lista-tarefa-font.vercel.app/
 
 ## Repositório do Professor
 
