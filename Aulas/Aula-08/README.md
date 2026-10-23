@@ -226,7 +226,7 @@ O código-fonte da atividade está disponível no GitHub:
 
 **Projeto React**
 
-https://github.com/mocotoTonin/lista-tarefa-font
+https://github.com/mocotoTonin/ProjetoReact-Aula-8
 
 ## Acesse a Aplicação
 
