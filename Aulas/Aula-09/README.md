@@ -335,7 +335,7 @@ https://github.com/mocotoTonin/projeto-react-aula-9
 
 ## Acesse a Aplicação
 
-Link da Vercel será adicionado após o deploy.
+projeto-react-aula-9.vercel.app
 
 ---
 
@@ -413,7 +413,7 @@ https://github.com/mocotoTonin/projeto-react-aula-9
 
 Aplicação:
 
-Link da Vercel será adicionado após o deploy.
+projeto-react-aula-9.vercel.app
 
 ## Repositório do Professor
 
